@@ -7,13 +7,13 @@ This repository contains code for ovarian cancer subtype classification using Wh
 
 ## Contributors
 
-- **Anar Alimzade** - Implementation of WSI MIL classifier and TMA tile-based majority voting.
-- **Ali Alper Sakar** - Development of TMA Encoder-based classification approach
+- **Anar Alimzade** - Implementation of WSI MIL classifier and TMA image tiling and tile-based majority voting. WSI cancerous region masking.
+- **Ali Alper Sakar** - Development of TMA Encoder-based classification approach, scrapping of external database.
 
 
 ## Details
 
-This study focuses on classifying subtypes of ovarian cancer using Whole Slide Images (WSI) and Tissue Microarrays (TMA) data from the [UBC-OCEAN Kaggle competition](https://www.kaggle.com/competitions/UBC-OCEAN). The task is to classify ovarian cancer images into the following subtypes:
+This study was conducted as part of the **"Applied AI Engineering Lab"** course at the **University of Passau**. It focuses on **classifying ovarian cancer subtypes** using Whole Slide Images (WSI) and Tissue Microarrays (TMA) data from the [UBC-OCEAN Kaggle competition](https://www.kaggle.com/competitions/UBC-OCEAN). The task is to classify ovarian cancer images into the following subtypes:
 
 - **Clear Cell Carcinoma (CC)**
 - **Endometrioid Carcinoma (EC)**
